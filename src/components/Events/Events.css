@@ -1,0 +1,37 @@
+.event-item {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.event-item.enabled {
+  background-color: #d4edda;
+  border-color: #156d2a;
+}
+
+.event-title {
+  font-weight: bold;
+}
+
+.event-date {
+  color: #555;
+}
+
+.event-actions {
+  margin-top: 10px;
+}
+
+.event-button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.event-button:hover {
+  background-color: #f0f0f0;
+}
